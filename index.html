@@ -43,7 +43,7 @@
     transition: font-size 0.1s ease-in-out;
   }
   a:hover {
-    font-size: 24px;
+    font-size: 21px;
   }
   /* Media query for smaller screens */
   @media only screen and (max-width: 600px) {
@@ -51,7 +51,25 @@
       width: 50%;
     }
   }
-}
+  #audio-button {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #0088FF;
+      border: none;
+      color: white;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+    }
+
+    #audio-button:hover {
+      transform: scale(1.05);
+    }
 </style>
   </style>
 </head>
@@ -64,4 +82,20 @@
   <a href="https://www.instagram.com/calebdickinson7/">See me on Instagram</a>
   <a href="https://github.com/calebdickinson">Check out my Github</a>
   <a href="mailto:calebisaacdickinson@gmail.com">Email me at calebisaacdickinson@gmail.com</a>
+  <audio id="my-audio" src="https://github.com/calebdickinson/python_creations/raw/main/3civav4ujjk%20second%20movement.mp3" loop></audio>
+  <button id="audio-button" onclick="togglePlay();">Music: Play/Pause</button>
+  <audio id="my-audio" src="your-audio-file.mp3" loop></audio>
+  <button id="audio-button" onclick="togglePlay()">Music: Play/Pause</button>
+  <script>
+    var audio = document.getElementById("my-audio");
+    function togglePlay() {
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+        audio.currentTime = 0;
+        audio.play();
+      }
+    }
+  </script>
 </body>
