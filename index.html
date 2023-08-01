@@ -77,7 +77,17 @@
   </style>
 </head>
 <body>
-  <img src="https://github.com/calebdickinson/python_creations/blob/main/IMG-2242.jpg?raw=true" style="width: 15%;">
+  <img src="https://github.com/calebdickinson/python_creations/blob/main/IMG-2242.jpg?raw=true" class="responsive-image">
+  <style>
+    .responsive-image {
+      width: 15%;
+    }
+    @media only screen and (max-width: 768px) {
+      .responsive-image {
+        width: 30%;
+      }
+    }
+  </style>
   <p>Hi! I'm Caleb, an amateur programmer and musician.</p>
   <a href="catalogue.html">Music Catalogue</a>
   <a href="https://github.com/calebdickinson">Github</a>
