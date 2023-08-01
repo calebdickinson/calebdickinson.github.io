@@ -54,25 +54,6 @@
       background-attachment: fixed;
     }
   }
-  #audio-button {
-      position: fixed;
-      top: 20px;
-      left: 20px;
-      background-color: #0088FF;
-      border: none;
-      color: white;
-      padding: 10px 10px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      cursor: pointer;
-      transition: all 0.1s ease-in-out;
-      border-radius: 5px;
-    }
-    #audio-button:hover {
-      transform: scale(1.05);
-    }
 </style>
   </style>
 </head>
@@ -96,17 +77,4 @@
   <a href="mailto:calebisaacdickinson@gmail.com">calebisaacdickinson@gmail.com</a>
   <a href="https://www.facebook.com/caleb.dickinson.37">Facebook</a>
   <a href="https://www.instagram.com/calebdickinson7/">Instagram</a>
-  <audio id="my-audio" src="https://github.com/calebdickinson/python_creations/raw/main/3civav4ujjk%20second%20movement.mp3" loop></audio>
-  <button id="audio-button" onclick="togglePlay();">Music: Play/Pause</button>
-  <script>
-  var audio = document.getElementById("my-audio");
-  function togglePlay() {
-    if (audio.paused) {
-      audio.play();
-    } else {
-      audio.pause();
-      audio.currentTime = 0;
-    }
-  }
-  </script>
 </body>
