@@ -5,14 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>calebdickinson.com</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=EB Garamond&display=swap');
+  
+    :root {
+        --sans: 'EB Garamond', sans-serif;
+    }
+  
+    html {
+        font-family:var(--sans);
+    }
+    
     body {
       text-align: center;
       margin-top: 50px;
       background-image: url("https://github.com/calebdickinson/python_creations/blob/main/IMG-5558.jpg?raw=true");
       background-size: cover;
       background-position: center;
-      font-family: georgia;
     }
+      
     body::before {
       content: "";
       display: block;
@@ -24,37 +34,42 @@
       background-color: rgba(0, 0, 0, 0.4);
       z-index: -1;
     }
+      
     p {
       font-size: 22px;
       color: #ffffff;
     }
-   input {
-    border: 0;
-    padding: 10px;
-    font-size: 18px;
-  }
-  input[type="submit"] {
-    background: #4B0082;
-    color: white;
-  }
-  a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 20px;
-    margin-top: 10px;
-    display: block;
-    transition: font-size 0.1s ease-in-out;
-  }
-  a:hover {
-    font-size: 21px;
-  }
-  @media only screen and (max-width: 768px) {
-    body {
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+      
+     input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
     }
-  }
-</style>
+      
+    input[type="submit"] {
+      background: #4B0082;
+      color: white;
+    }
+      
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 20px;
+      margin-top: 10px;
+      display: block;
+      transition: font-size 0.1s ease-in-out;
+    }
+      
+    a:hover {
+      font-size: 21px;
+    }
+      
+    @media only screen and (max-width: 768px) {
+      body {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    }
   </style>
 </head>
 <body>
