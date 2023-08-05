@@ -1,480 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>calebdickinson.com</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=EB Garamond&display=swap');
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>calebdickinson.com</title>
+  <style>
 
-        :root {
-            --sans: 'EB Garamond', sans-serif;
-        }
-    
-        html {
-            font-family:var(--sans);
-            background: #FFFFFF;
-        }
+    body {
+      text-align: center;
+      margin-top: 50px;
+      background-image: url("https://github.com/calebdickinson/python_creations/blob/main/IMG-5558.jpg?raw=true");
+      background-size: cover;
+      background-position: center;
+      font-family: georgia;
+    }
 
-        body {
-            padding: 2rem;
-        }
-        
-        h1, h2, h3, h4, p, li, ul {
-            color: #000000
-        }
-    
-        h1 {
-            font-size: 4rem;
-            margin-top: 0;
-        }
-    
-        h2 {
-            font-size: 2rem;
-        }
+    body::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      z-index: -1;
+    }
 
-        h3 {
-            font-size: 1.75rem;
-        }
-    
-        h4 {
-            font-size: 1.5rem; 
-        }
+    p {
+      font-size: 22px;
+      color: #ffffff;
+    }
 
-        p {
-            font-size: 1rem;
-        }
-    
-        li {
-            font-size: 1.25rem;
-        }
+     input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
 
-        ul {
-            font-size: 1.25rem;
-            list-style-type: circle;
-        }
+    input[type="submit"] {
+      background: #4B0082;
+      color: white;
+    }
 
-        .square-bullet {
-            list-style-type: square;
-        }
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 20px;
+      margin-top: 10px;
+      display: block;
+      transition: font-size 0.1s ease-in-out;
+    }
 
-        a {
-            text-decoration: none;
-        }
+    a:hover {
+      font-size: 21px;
+    }
 
-        a:link, a:visited {
-            color: #0000FF;
-        }
-    
-        a:hover {
-            cursor: pointer;
-            color: #0000FF;
-            font-size: 1.375rem
-        }
+    @media only screen and (max-width: 768px) {
+      body {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    }
 
-    </style>
-</head> 
-<body>   
-    <h1>My Music</h1>
-    <p>Please note that all music is under copyright.</p>
-    <h2>Orchestral Music</h2>
-    <ul>
-        <h3>Symphonies</h3>
-        <ul>
-            <li>Symphony No. 0 in F Major (2014)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/UUdq5" target="_blank"><i>Moderato</i></a></li>
-            </ol><br>
-            <li>Symphony No. 1 in a minor (2016)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/m7fGF" target="_blank"><i>Largo</i></a></li>
-                <li><a href="https://on.soundcloud.com/EZGJY" target="_blank"><i>Scherzo</i></a></li>
-                <li><a href="https://on.soundcloud.com/V7Kab" target="_blank"><i>Andante</i></a></li>
-                <li><a href="https://on.soundcloud.com/BtZUq" target="_blank"><i>Vivace</i></a></li>
-            </ol><br>
-            <li>Symphony No. 2 in E Major - Bb Major (2016 - 2017)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/ys3Rz" target="_blank"><i>Andante</i></a> (2016)</li>
-                <li><a href="https://on.soundcloud.com/nTN3h" target="_blank"><i>Largo</i></a> (2017)</li>
-            </ol><br>
-            <li>Symphony No. 3 in C Major (2018)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/XyXiC" target="_blank"><i>Allegro</i></a></li>
-            </ol><br>
-            <li>Symphony No. 4 (2020)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/KjJeX" target="_blank"><i>Grave - Allegro</i></a></li>
-                <li><a href="https://on.soundcloud.com/gdtHC" target="_blank"><i>Adagio</i></a></li>
-                <li><a href="https://on.soundcloud.com/WLR1f" target="_blank"><i>Allegretto</i></a></li>
-                <li><a href="https://on.soundcloud.com/Kyy2D" target="_blank"><i>Largo</i></a> [unfinished]</li>
-            </ol><br>
-            <li>Symphony No. 5 in c minor (2020)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/t4MCP" target="_blank"><i>Grave - Allegro Vivace - Grave</i></a></li>
-            </ol><br>
-            <li>Symphony No. 6 in d minor (2023)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/ChKg3" target="_blank"><i>Andante - Allegro</i></a> [unfinished]</li>
-                <li><a href="https://on.soundcloud.com/YPnak" target="_blank"><i>Andante</i></a> [unfinished]</li>
-                <li><a href="https://on.soundcloud.com/EVD18" target="_blank"><i>Andante</i></a> [unfinished]</li>
-            </ol>
-        </ul>
-        <h3>Concertos</h3>
-        <ul>
-            <li>Piano Concerto No. 1 in c minor (2016 - 2017)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/jnQNy" target="_blank"><i>Allegro Vivace</i></a> (2016)</li>
-                <li><a href="https://on.soundcloud.com/hKEaZ" target="_blank"><i>Adagio</i></a> (2016)</li>
-                <li><a href="https://on.soundcloud.com/aAqoL" target="_blank"><i>Allegro Vivace</i></a> (2017)</li>
-            </ol><br>
-            <li>Piano Concerto No. 2 (2017)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/XrrEN" target="_blank"><i>Allegro</i></a></li>
-                <li><a href="https://on.soundcloud.com/fVHGv" target="_blank"><i>Tempo di Minuet</i></a></li>
-                <li><a href="https://on.soundcloud.com/KfXPh" target="_blank"><i>Allegro</i></a></li>
-            </ol><br>
-            <li>Piano Concerto No. 3 (2017)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/vf9zt" target="_blank"><i>Vivace</i></a></li>
-                <li><a href="https://on.soundcloud.com/41XHT" target="_blank"><i>Adagio</i></a> [unfinished]</li>
-                <li><a href="https://on.soundcloud.com/grku4" target="_blank"><i>Moderato</i></a> [unfinished]</li>
-                <li><a href="https://on.soundcloud.com/jJJVA" target="_blank"><i>Vivace</i></a> [unfinished]</li>
-            </ol><br>
-            <li>Piano Concerto in d minor (2017 - 2018) [unfinished]</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/sTvBU" target="_blank"><i>Presitissimo</i></a> (2017) [unfinished]</li>
-                <li><a href="https://on.soundcloud.com/cJ3JQ" target="_blank"><i>Largo</i></a> (2018) [unfinished]</li>
-                <li><a href="https://on.soundcloud.com/wzRsd" target="_blank"><i>Sostenuto</i></a> (2018) [unfinished]</li>    
-            </ol><br>
-            <li><a href="https://on.soundcloud.com/xQk4o" target="_blank">Triple Concerto for Bassoon, Horn, and Trombone in e minor - C Major</a> (2017) [unfinished]</li><br>
-            <li><a href="https://on.soundcloud.com/G9ANN" target="_blank">Concerto Grosso in F Major</a> (2019 &amp; 2023)</li><br>
-            <li><a href="https://on.soundcloud.com/wYWvY" target="_blank">Baroque Concerto in b minor</a> (2020)</li><br>
-            <li>Piano Concerto No. 4 (2023)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/4SfzQ" target="_blank"><i>Moderato</i></a></li>
-                <li><a href="https://on.soundcloud.com/u1iZH" target="_blank"><i>Lento</i></a> [unfinished]</li>
-                <li><a href="https://on.soundcloud.com/Yzjhh" target="_blank"><i>Largo</i></a> [unfinished]</li>
-            </ol>
-        </ul>
-        <h3>Symphonic Poems</h3>
-        <ul>
-            <li>Thunderstorm (2016)</li><br>
-            <li><a href="https://on.soundcloud.com/dgBQk" target="_blank">Orchestral Piece</a> (2017) [unfinished]</li><br>
-            <li><a href="https://on.soundcloud.com/2SY3W" target="_blank">Orchestral Piece in F Major</a> (2018) (arrangement of a piano piece by Hyrum Dickinson) [unfinished]</li><br>
-            <li><a href="https://on.soundcloud.com/v9X8Z" target="_blank">Scherzo in f minor</a> (2018) [unfinished]</li><br>
-            <li><a href="https://on.soundcloud.com/MdBpY" target="_blank">The Sea</a> (2019) [unfinished]</li><br>
-            <li><a href="https://on.soundcloud.com/FJxUj" target="_blank">Orchestration of Bach Fugue in Eb Major</a> (2019)</li><br>
-            <li><a href="https://on.soundcloud.com/2PQWy" target="_blank">The Storm at Sea</a> (2020) [unfinished]</li><br>
-            <li><a href="https://on.soundcloud.com/vbmi7" target="_blank">Symphonic Scherzo</a> (2020)</li><br>
-            <li><a href="https://on.soundcloud.com/q3fpA" target="_blank">The Haunted Planet</a> (2022) [unfinished]</li><br>
-            <li><a href="https://on.soundcloud.com/ebnWa" target="_blank">Orchestral Piece in f# minor</a> (2023) [unfinished]</li><br>
-            <li><a href="https://on.soundcloud.com/UfBSS" target="_blank">Symphonic Poem</a> (2023)</li>
-        </ul>
-        <h3>Incidental Orchestral Music</h3>
-        <ul>
-            <li><a href="https://on.soundcloud.com/e5S55" target="_blank">The Beginning of the Adventure</a> (2023)</li><br>
-            <li><a href="https://on.soundcloud.com/TohYL" target="_blank">The Road Through the Country</a> (2023)</li><br>
-            <li><a href="https://on.soundcloud.com/sYSNX" target="_blank">The Road Through the City</a> (2023)</li><br>
-            <li><a href="https://on.soundcloud.com/t6S9P" target="_blank">The Road Through the Desert</a> (2023)</li><br>
-            <li><a href="https://on.soundcloud.com/RaaeS" target="_blank">The Road Through the Mysterious Forest</a> (2023)</li><br>
-            <li><a href="https://on.soundcloud.com/tnGtc" target="_blank">The Road Through the Mountains</a> (2023)</li><br>
-            <li><a href="https://drive.google.com/file/d/1h0d5PPtjbaEKiH2FvjdxL8i6XoPmtWVN/view?usp=sharing" target="_blank">
-                Film Music for a Scene From <i>No Country for Old Men</i></a> (2023)</li>
-        </ul>
-    </ul>
-    <h2>Chamber Music</h2>
-    <ul>
-        <li><a href="https://on.soundcloud.com/g8xCr" target="_blank">Piano Duet in G Major</a> (?)</li><br>
-        <li>Fantasy on "Happy Birthday" for Violin and Piano in D Major (2016)</li><br>
-        <li>Sonata for Violin and Piano in C Major (2016 - 2017)</li>
-        <ol type="I">
-            <li><i>Allegro</i></li>
-            <li><i>Larghetto</i></li>
-            <li><i>Andante</i></li>
-        </ol><br>
-        <li><a href="https://on.soundcloud.com/y3siH" target="_blank">Canon in c minor for Piano Duet</a> (2017)</li><br>
-        <li><!--Exam-->Piece in F Major for Violin and Piano</li><br>
-        <li><!--Exam-->Piece in Ab Major for Violin and Piano</li><br>
-        <li>Tragic Elegy for Violin and Piano (2019) [unfinished]</li><br>
-        <li><a href="https://on.soundcloud.com/kn2Nf" target="_blank">Viola Piece for Viola and Piano</a> (2019)</li><br>
-        <li><a href="https://on.soundcloud.com/AE62r" target="_blank">String Quartet</a> (2020) [unfinished]</li><br>
-        <li><a href="https://on.soundcloud.com/Byqwn" target="_blank">Piano Quintet in c# minor</a> (2020) [unfinished]</li><br>
-        <li><a href="https://on.soundcloud.com/6qUmv" target="_blank">Quartet for Piano and Winds</a> (2020) [unfinished]</li>
-    </ul>
-    <h2>Organ Music</h2>
-    <ul>
-        <li><a href="https://on.soundcloud.com/2XTJ2" target="_blank">Organ Piece in C Major</a> (2020)</li>
-    </ul>
-    <h2>Solo Violin Music</h2>
-    <ul>
-        <li>5 Pieces for Solo Violin (2016)</li>
-        <ol type="I">
-            <li><a href="https://on.soundcloud.com/efGp8" target="_blank"><i>Andante</i> in e minor</a></li>
-            <li><i>Vivace in A Major</i></li>
-            <li><i>Vivace in f minor</i></li>
-            <li><i>Vivace in A Major</i></li>
-            <li><i>Vivace in A Major</i><!--This second vivace in A Major is correct - there are 2 of them--></li>
-        </ol><br>
-        <li>Sonatina for Solo Violin in g minor (2017)</li>
-        <ol type="I">
-            <li><a href="https://on.soundcloud.com/NTr3R" target="_blank"><i>Vivace</i></a></li>
-            <li><a href="https://on.soundcloud.com/xmmUf" target="_blank"><i>Largo</i></a></li>
-            <li><a href="https://on.soundcloud.com/c6K1r" target="_blank"><i>Più mosso</i></a></li>
-        </ol><br>
-        <li><a href="https://on.soundcloud.com/2y1Ya" target="_blank">Trifle for Violin in A Major</a> (2017)</li>
-    </ul>
-    <h2>Solo Bassoon Music</h2>
-    <ul>
-        <li><a href="https://on.soundcloud.com/TQNJA" target="_blank">Bassoon Piece in b minor</a> (2019)</li>
-    </ul>
-    <h2>Solo Piano Music</h2>
-    <ul>
-        <h3>Piano Sonatas and Sonatinas</h3>
-        <ul>
-            <li>Piano Sonatina No. 1 in C Major - G Major (?)</li>
-            <ol type="I">
-                <li><i>Allegro</i></li>
-                <li><i>Allegro Cantibile</i></li>
-            </ol><br>
-            <li>Piano Sonatina No. 2 in C Major (?)</li>
-            <ol type="">
-                <li><i>Allegro</i></li>
-            </ol><br>
-            <li>Piano Sonatina No. 3 in A Major (2014)</li>
-            <ol type="I">
-                <li><i>Moderato</i></li>
-                <li><i>Adagio</i></li>
-                <li><i>Allegro</i></li>
-            </ol><br>
-            <li>Piano Sonatina No. 4 in G Major "Flower Sonatina" (2014)</li>
-            <ol type="I">
-                <li><i>Moderato</i> "Marigold"</li>
-                <li><i>Adagio</i> "Rose"</li>
-                <li><i>Molto Maestoso</i> "Sunflower"</li>
-            </ol><br>
-            <li>Piano Sonatina No. 5 in c minor (2015)</li>
-            <ol type="I">
-                <li><i>Andante</i></li>
-                <li><i>Adagio</i> [same piece as Prelude No. 5 in Bb Major]</li>
-            </ol><br>
-            <li>Piano Sonata in C Major (?) [unfinished]</li><br>
-            <li>Piano Sonatina in c minor <!--Sonate di Guai [Original Title]-->(2015) [unfinished]</li><br>
-            <li>Piano Sonata in Ab Major (?) [unfinished]</li><br>
-            <li>Piano Sonata No. 1 in Eb Major (2015)</li>
-            <ol type="I">
-                <li><i>Allegro Moderato</i></li>
-                <li><i>Adagio</i></li>
-                <li><a href="https://on.soundcloud.com/qHfPq" target="_blank"><i>Vivace</i></a></li>
-            </ol><br>
-            <li>Piano Sonata in c# minor (2015) [unfinished]</li><br>
-            <li>Piano Sonatina No. 6 in E Major (2016)</li>
-            <ol type="I">
-                <li><i>Allegro</i></li>
-                <li><i>Grave</i></li>
-                <li><i>Somewhat Fast (Allegretto)</i> [unfinished]</li>
-            </ol><br>
-            <li>Piano Sonata in C Major (?) [unfinished]</li><br>
-            <li>Piano Sonata No. 2 (2019)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/fkWPv" target="_blank"><i>Largo</i></a></li>
-                <li><a href="https://on.soundcloud.com/smFDW" target="_blank"><i>Even Slower</i></a></li>
-                <li><a href="https://on.soundcloud.com/3KveZ" target="_blank"><i>Moderato</i></a></li>
-                <li><a href="https://on.soundcloud.com/d88Gq" target="_blank"><i>Hymn</i></a></li>
-            </ol>
-        </ul>
-        <h3>Piano Variations</h3>
-        <ul>
-            <li>Variations on an Original Theme in G Major (2015)</li>
-            <ul>
-                <li class="square-bullet"><i>Theme - Allegro</i></li>
-                <li class="square-bullet"><i>Var. I</i></li>
-                <li class="square-bullet"><i>Var. II</i> [unfinished]</li>
-            </ul><br>
-            <li>Three Variations on an Original Theme in G Major (2015)</li>
-            <ul>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/RrsMC" target="_blank"><i>Theme</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/B8Rjd" target="_blank"><i>Var. I</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/sLSp8" target="_blank"><i>Var. II</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/tz5pm" target="_blank"><i>Var. III</i></a></li>
-            </ul><br>
-            <li>Twelve Variations on an Original Theme in Bb Major (2015)</li>
-            <ul>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/EayBf" target="_blank"><i>Theme</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/TFiSB" target="_blank"><i>Var. I</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/jpJy7" target="_blank"><i>Var. II</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/KuWov" target="_blank"><i>Var. III</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/z3KAt" target="_blank"><i>Var. IV</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/PYZxk" target="_blank"><i>Var. V</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/uEY5h" target="_blank"><i>Var. VI</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/kTX1F" target="_blank"><i>Var. VII</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/vxvnR" target="_blank"><i>Var. VIII</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/orcZh" target="_blank"><i>Var. IX</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/s3ikx" target="_blank"><i>Var. X</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/ywr9a" target="_blank"><i>Var. XI</i></a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/ELT47" target="_blank"><i>Var. XII</i></a></li>
-            </ul><br>
-            <li>Three Variations on an Original Theme in b minor (2019)</li>
-            <ul>
-                <li class="square-bullet"><i>Theme</i></li>
-                <li class="square-bullet"><i>Var. I</i></li>
-                <li class="square-bullet"><i>Var. II</i></li>
-                <li class="square-bullet"><i>Var. III</i></li>
-            </ul>
-        </ul>
-        <h3>Other Piano Pieces</h3>
-        <ul>
-            <li>Thinking - Piece in a minor (?)</li><br>
-            <li>Lively Village Dance - Piece in C Major (?)</li><br>
-            <li>Prelude No. 1 in C Major (2012)</li><br>
-            <li>Prelude No. 2 in c minor (?)</li><br>
-            <li>Prelude No. 3 in Bb minor (?)</li><br>
-            <li>Prelude No. 4 in Bb Major (?)</li><br>
-            <li>Canon in F Major (?) [unfinished]</li><br>
-            <li>Impromptu No. 1 in Eb Major (?)</li><br>
-            <li>Impromptu No. 2 in Ab Major (?)</li><br>
-            <li>Impromptu No. 3 in g minor (?)</li><br>
-            <li>Prelude No. 5 in bb minor (?)</li><br>
-            <li>Fantasia in C Major (?) [unfinished]</li><br>
-            <li>Fughettas (?)</li>
-            <ol type="I">
-                <li><i>Allegro</i></li>
-                <li><i>Moderato</i></li>
-                <li><i>Vivace</i></li>
-                <li><i>Allegro</i></li>
-            </ol><br>
-            <li>The Ocean - Etude in Bb Major (?) [unfinished]</li><br>
-            <li>A Change of Heart (?)</li>
-            <ol type="I">
-                <li>Overture - <i>Moderato Allegro</i></li>
-                <li><i>Allegro Moderato</i></li>
-                <li><i>Thoughtfully</i></li>
-            </ol><br>
-            <li>Rondo-Fantasia in b minor (?)</li><br>
-            <li>Mazurka in C Major (2015)</li><br>
-            <li>Prelude No. 6 in Bb Major (2015)</li><br>
-            <li>Evening - Fantasy on the Hymn Tune "Hermana" (2015)</li><br>
-            <li>Prelude No. 7 in D Major (2015)</li><br>
-            <li>Valse in F Major (2015)</li><br>
-            <li>Nocturne No. 1 in c minor (2015)</li><br>
-            <li>Prelude No. 8 in F# Major (2015)</li><br>
-            <li>Prelude No. 9 in G Major (2015)</li><br>
-            <li>Ballade No. 1 in b minor (2015?)</li><br>
-            <li>Ballade No. 2 in Eb Major (2016?)</li><br>
-            <li>Waltz in A Major (2016?)</li><br>
-            <li>Prelude No. 10 in ab minor (2016)</li><br>
-            <li>Prelude No. 11 in a minor (2016?)</li><br>
-            <li>Prelude No. 12 in d minor (2016?)</li><br>
-            <li>Prelude No. 13 in F Major (2016?)</li><br>
-            <li>Etude in C Major (2017)</li><br>
-            <li>Alternate Cadenza for First Movement of Piano Concerto No. 2 in A Major (2017)</li><br>
-            <li>Chorale in C Major "Leading Tone" (2018)</li><br>
-            <li>Bartok Meets Vivaldi (2019)</li><br>
-            <li><a href="https://on.soundcloud.com/SN7UG" target="_blank">Praeludium</a> (2019) [unfinished]</li><br>
-            <li>Passacaglia (2019) [unfinished]</li><br>
-            <li>Var. IV [For Three Variations on an Original Theme in b minor]</li><br>
-            <li><a href="https://on.soundcloud.com/We2kS" target="_blank">Prelude No. 14</a> (2020)</li><br>
-            <li><a href="https://on.soundcloud.com/VJY3m" target="_blank">Fugue in c minor</a> (2020 &amp; 2023)</li><br>
-            <li><a href="https://on.soundcloud.com/YDTqT" target="_blank">Chorale in G Major - g minor</a> (2020)</li><br>
-            <li><a href="https://on.soundcloud.com/VckkT" target="_blank">Nocturne No. 2 in Eb Major</a> (2021)</li><br>
-            <li><a href="https://on.soundcloud.com/gdNVH" target="_blank">Ostanata</a> (2021)</li>
-        </ul>
-        <h3>Beginner Pieces and Exercises</h3>
-        <ul>
-            <li>Easy Learning Pieces (2015)</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/ksv7f" target="_blank"><i>Morning Song</i></a></li>
-                <li><a href="https://on.soundcloud.com/B3yJr" target="_blank"><i>Little Clouds</i></a></li>
-                <li><a href="https://on.soundcloud.com/doASc" target="_blank"><i>An Angry Beetle</i></a></li>
-                <li><a href="https://on.soundcloud.com/HDb4y" target="_blank"><i>Sunset</i></a></li>
-                <li><a href="https://on.soundcloud.com/qRPEY" target="_blank"><i>Another Angry Beetle</i></a></li>
-                <li><a href="https://on.soundcloud.com/8FcJN" target="_blank"><i>A Droplet of Water on a Leaf</i></a></li>
-                <li><i>Flags Blowing in a Light Breeze</i></li>
-            </ol><br>
-            <li><a href="https://drive.google.com/file/d/1Dn2rBscUY1XWGy3ordeJRbuJsrc9pDAb/view?usp=sharing" target="_blank">
-                Some Exercises for Piano Students</a> (2022)</li><br>
-            <li><a href="https://drive.google.com/file/d/1m5uaiFFU3iuvyDBymV086g5lt_z3adyu/view?usp=sharing" target="_blank">
-                Exercises 2</a> (2023)</li>
-        </ul>
-    </ul>
-    <h2>Vocal Music</h2>
-    <ul>
-        <h3>Operas</h3>
-        <ul>
-            <li>The Golden Cup (2017) [unfinished]</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/Z5tui" target="_blank">Chorus - <i>She is Dead!</i></a></li>
-                <li><a href="https://on.soundcloud.com/5fFMj" target="_blank">Recititive for Baritone - <i>I Hated Her... He Shall Die</i></a></li>
-                <li><a href="https://on.soundcloud.com/Vv1FC" target="_blank">Duet for Tenor and Alto - <i>It Is a Nice Day to Take a Walk</i></a></li>
-                <li><a href="https://on.soundcloud.com/C7uw7" target="_blank">Aria for Tenor - <i>I Was Encompassed</i></a></li>
-                <li><a href="https://on.soundcloud.com/1JKko" target="_blank">Duet for Baritone and Alto - <i>Is It Wrong to Fall in Love?</i></a> [unfinished]</li>
-            </ol>
-        </ul>
-        <h3>Oratorios</h3>
-        <ul>
-            <li>The Seven Trumpets (2015) [unfinished]</li>
-            <ol type="I">
-                <li><a href="https://on.soundcloud.com/Z8qbo" target="_blank">Overture</a></li>
-                <li><a href="https://on.soundcloud.com/z17aJ" target="_blank">Duet for Alto and Soprano - <i>And When He Had Opened The Seventh Seal</i></a></li>
-                <li><a href="https://on.soundcloud.com/FfzSr" target="_blank">Recititive for Tenor - <i>And I Saw The Seven Angels</i></a></li>
-                <li><a href="https://on.soundcloud.com/2hhvD" target="_blank">Recititive for Alto - <i>And Another Angel Came</i></a></li>
-                <li><a href="https://on.soundcloud.com/tdE5H" target="_blank">Air for Bass - <i>And The Smoke of The Incense</i></a></li>
-                <li><a href="https://on.soundcloud.com/6i7qB" target="_blank">Chorus - <i>And The Angel Took The Censor</i></a></li>
-                <li><a href="https://on.soundcloud.com/w2ZKV" target="_blank">Recititive for Tenor - <i>And The Seven Angels Which Had The Seven Trumpets</i></a></li>
-                <li><a href="https://on.soundcloud.com/3moYK" target="_blank">Episode - The Angels Sound Their Trumpets</a></li>
-                <li><a href="https://on.soundcloud.com/nWMza" target="_blank">Air for Soprano - <i>And The First Angel Sounded</i></a></li>
-            </ol>
-        </ul>
-        <h3>Art Songs</h3>
-        <ul>
-            <h4>Art Song Cycles</h4>
-            <ul>
-                <li>Emily Dickinson Song Cycle (2019 - 2023)</li>
-                <ol type="I">
-                    <li><a href="https://on.soundcloud.com/j9iW5" target="_blank"><i>At Half Past Three a Single Bird</i></a> (2019)</li>
-                    <li><a href="https://on.soundcloud.com/Ku2on" target="_blank"><i>High From the Earth I Heard a Bird</i></a> (2019)</li>
-                    <li><a href="https://on.soundcloud.com/NxmBE" target="_blank"><i>Hope Is a Thing With Feathers</i></a> (2023)</li>
-                    <li><a href="https://on.soundcloud.com/wbYND" target="_blank"><i>I Have a Bird in Spring</i></a> (2023)</li>
-                    <li><a href="https://on.soundcloud.com/YjzsW" target="_blank"><i>Two Legacies</i></a> (2019)</li>
-                    <li><a href="https://on.soundcloud.com/Jc7jd" target="_blank"><i>I Hide Myself Within My Flower</i></a> (2023)</li>
-                    <li><a href="https://on.soundcloud.com/1SFYU" target="_blank"><i>If You Were Coming in the Fall</i></a> (2019)</li>
-                </ol>
-            </ul>
-            <h4>Standalone Art Songs</h4>
-            <ul>
-                <li>Art Song in G Major (?)</li><br>
-                <li>Art Song in F Major - c minor (2014)</li><br>
-                <li>Art Song in C Major (2015)</li><br>
-                <li><a href="https://on.soundcloud.com/4c77L" target="_blank"><i>Shadow of the Moon</i></a> (2019)</li>
-            </ul>
-        </ul>
-        <h3>Hymn Tunes</h3>
-        <ul>
-            <li>I Will Choose the Right (?)</li><br>
-            <li>Hymn Tune in F Major (2018)</li><br>
-            <li><a href="https://on.soundcloud.com/5Ap5g" target="_blank">Hymn Tune for <i>If Truth Leads To Death</i></a> (2019)</li><br>
-            <li>Hymn Tune for <i>God's Kingdom Is Restored</i> (2019)</li>
-            <ul>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/L6aeF" target="_blank">original version</a></li>
-                <li class="square-bullet"><a href="https://on.soundcloud.com/KoJhM" target="_blank">live recording with choir</a></li>
-            </ul>
-        </ul>
-        <h3>Musical Theater</h3>
-        <ul>
-            <li><a href="https://on.soundcloud.com/5wtHH" target="_blank">Duet for Two Tenors - <i>At My Store</i></a> (2017)</li><br>
-            <li><a href="https://on.soundcloud.com/RKkWL" target="_blank">Duet for Soprano and Baritone - <i>A King Must Do Many a Thing</i></a> (2017)</li>
-        </ul>
-    </ul>
-    <h2>Electronic Music</h2>
-    <ul>
-        <h3>Experimental Music</h3>
-        <ul>
-            <li><a href="https://on.soundcloud.com/jSfmj" target="_blank">Musica Electronique in the style of Varèse</a> (2022)</li>
-        </ul>
-        <h3>Ambient Music</h3>
-        <ul>
-            <li><a href="https://on.soundcloud.com/kmMiF" target="_blank">lost</a> (2023)</li><br>
-            <li><a href="https://on.soundcloud.com/7EUKk" target="_blank">ambient</a> (2023)</li>
-        </ul>
-    </ul>   
-</body>
-</html>
+  </style>
+</head>
+<body>
+  <img src="https://github.com/calebdickinson/python_creations/blob/main/IMG-2242.jpg?raw=true" class="responsive-image">
+  <style>
+    .responsive-image {
+      width: 15%;
+    }
+    @media only screen and (max-width: 768px) {
+      .responsive-image {
+        width: 30%;
+      }
+    }
+  </style>
+  <p>Hi! I'm Caleb, an amateur programmer and musician.</p>
+  <a href="catalogue.html">Music Catalogue</a>
+  <a href="https://github.com/calebdickinson">Github</a>
+  <a href="https://soundcloud.com/caleb-dickinson-530919221">SoundCloud</a>
+  <a href="https://www.linkedin.com/in/caleb-dickinson-70715b1aa/">Linkedin</a>
+  <a href="mailto:calebisaacdickinson@gmail.com">calebisaacdickinson@gmail.com</a>
+  <a href="https://www.facebook.com/caleb.dickinson.37">Facebook</a>
+  <a href="https://www.instagram.com/calebdickinson7/">Instagram</a>
