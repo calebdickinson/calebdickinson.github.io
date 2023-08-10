@@ -5,78 +5,65 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>calebdickinson.com</title>
   <style>
-
+    a {
+      color: #ffffff;
+      display: block;
+      font-size: 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      transition: font-size 0.1s ease-in-out;
+    }
+    a:hover {
+      font-size: 21px;
+    }
     body {
-      text-align: center;
-      margin-top: 50px;
       background-image: url("https://github.com/calebdickinson/python_creations/blob/main/IMG-5558.jpg?raw=true");
       background-size: cover;
       background-position: center;
       font-family: georgia;
+      margin-top: 50px;
+      text-align: center;
     }
-
     body::before {
+      background-color: rgba(0, 0, 0, 0.4);
       content: "";
       display: block;
+      height: 100%;
+      left: 0;
       position: absolute;
       top: 0;
-      left: 0;
       width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.4);
       z-index: -1;
     }
-
-    p {
-      font-size: 22px;
-      color: #ffffff;
-    }
-
-     input {
+    input {
       border: 0;
-      padding: 10px;
       font-size: 18px;
+      padding: 10px;
     }
-
     input[type="submit"] {
       background: #4B0082;
-      color: white;
-    }
-
-    a {
-      text-decoration: none;
       color: #ffffff;
-      font-size: 20px;
-      margin-top: 10px;
-      display: block;
-      transition: font-size 0.1s ease-in-out;
     }
-
-    a:hover {
-      font-size: 21px;
+    p {
+      color: #ffffff;
+      font-size: 22px;
     }
-
-    @media only screen and (max-width: 768px) {
-      body {
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-      }
-    }
-
-  </style>
-</head>
-<body>
-  <img src="https://github.com/calebdickinson/python_creations/blob/main/IMG-2242.jpg?raw=true" class="responsive-image">
-  <style>
     .responsive-image {
       width: 15%;
     }
     @media only screen and (max-width: 768px) {
+      body {
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+      }
       .responsive-image {
         width: 30%;
       }
     }
   </style>
+</head>
+<body>
+  <img src="https://github.com/calebdickinson/python_creations/blob/main/IMG-2242.jpg?raw=true" class="responsive-image">
   <p>Hi! I'm Caleb, an amateur programmer and musician.</p>
   <a href="catalogue.html">Music Catalogue</a>
   <a href="https://github.com/calebdickinson">Github</a>
