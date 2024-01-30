@@ -16,14 +16,6 @@
         a {
             text-decoration: none;
         }
-        a:link, a:visited {
-            color: #0000FF;
-        }
-        a:hover {
-            cursor: pointer;
-            color: #0000FF;
-            font-size: 1.05em
-        }
         body {
             padding: 2rem;
         }
@@ -46,11 +38,28 @@
         html {
             background: #FFFFFF;
         }
-        li {
-            font-size: 1.25rem;
+        img {
+            height: 18px;
         }
-        p {
-            font-size: 1rem;
+        img:hover {
+            -webkit-animation:spin 4s linear infinite;
+            -moz-animation:spin 4s linear infinite;
+            animation:spin 4s linear infinite;
+        }
+        @-moz-keyframes spin { 
+            100% { -moz-transform: rotate(360deg); } 
+        }
+        @-webkit-keyframes spin { 
+            100% { -webkit-transform: rotate(360deg); } 
+        }
+        @keyframes spin { 
+            100% { 
+                -webkit-transform: rotate(360deg); 
+                transform:rotate(360deg); 
+            } 
+        }
+        li, p {
+            font-size: 1.25rem;
         }
         ul {
             font-size: 1.25rem;
@@ -64,34 +73,92 @@
 </head> 
 <body>   
     <h1>My Music</h1>
+    <p>Website is currently being updated to include both youtube and soundcloud links where applicable</p>
     <p>Please note that all my music is under copyright.</p>
-    <p>All links direct to SoundCloud audio files unless otherwise noted.</p>
     <p>If you are interested in the scores of any of these pieces, or in commissioning new musical works, please contact the composer at calebisaacdickinson@gmail.com</p>
     <h2>Orchestral Music</h2>
     <ul>
-        <h3><a href="https://on.soundcloud.com/XYKQc" target="_blank">Symphonies</a></h3>
+        <h3>Symphonies
+            <a href="https://on.soundcloud.com/XYKQc" target="_blank">
+                <img src="soundcloud.png">
+            </a>
+        </h3>
         <ul>
-            <li>Symphony No. 0 in F Major (2014)</li>
+            <li>Symphony No. 0 in F Major (2014)
+                <a href="https://on.soundcloud.com/UUdq5" target="_blank">
+                    <img src="soundcloud.png">
+                </a>
+            </li>
             <ol type="I">
-                <li><a href="https://on.soundcloud.com/UUdq5" target="_blank"><i>Moderato</i></a></li>
+                <li><i>Moderato</i></li>
             </ol><br>
             <li>Symphony No. 1 in a minor (2016)</li>
             <ol type="I">
-                <li><a href="https://on.soundcloud.com/m7fGF" target="_blank"><i>Largo</i></a></li>
-                <li><a href="https://on.soundcloud.com/EZGJY" target="_blank"><i>Scherzo</i></a></li>
-                <li><a href="https://on.soundcloud.com/V7Kab" target="_blank"><i>Andante</i></a></li>
-                <li><a href="https://on.soundcloud.com/BtZUq" target="_blank"><i>Vivace</i></a></li>
+                <li><i>Largo</i>
+                    <a href="https://on.soundcloud.com/m7fGF" target="_blank">
+                        <img src="soundcloud.png">
+                    </a>
+                </li>
+                <li>
+                    <i>Scherzo</i>
+                    <a href="https://on.soundcloud.com/EZGJY" target="_blank">
+                        <img src="soundcloud.png">
+                    </a>
+                </li>
+                <li>
+                    <i>Andante</i>
+                    <a href="https://on.soundcloud.com/V7Kab" target="_blank">
+                        <img src="soundcloud.png">
+                    </a>
+                </li>
+                <li>
+                    <i>Vivace</i>
+                    <a href="https://on.soundcloud.com/BtZUq" target="_blank">
+                        <img src="soundcloud.png">
+                    </a>
+                </li>
             </ol><br>
-            <li>Symphony No. 2 in E Major - Bb Major (2016 - 2017)</li>
+            <li>Symphony No. 2 in E Major - Bb Major (2016 - 2017)
+                <a href="https://youtu.be/Qh3j1HmKSQw?si=a08bdk4Cy2aCYC-C" target="_blank">
+                    <img src="youtube.jpg">
+                </a>
+            </li>
             <ol type="I">
-                <li><a href="https://on.soundcloud.com/ys3Rz" target="_blank"><i>Prestissimo</i></a> (2016)</li>
-                <li><a href="https://on.soundcloud.com/nTN3h" target="_blank"><i>Moderato - Vivace - Moderato</i></a> (2017)</li>
+                <li>
+                    <i>Prestissimo</i> (2016)
+                    <a href="https://on.soundcloud.com/ys3Rz" target="_blank">
+                        <img src="soundcloud.png">
+                    </a>
+                    <a href="https://youtu.be/L6JPS9v7lPQ?si=sdJjLqg3jo_EuLqZ" target="_blank">
+                        <img src="youtube.jpg">
+                    </a>
+                </li>
+                <li>
+                    <i>Moderato - Vivace - Moderato</i> (2017)
+                    <a href="https://on.soundcloud.com/nTN3h" target="_blank">
+                        <img src="soundcloud.png">
+                    </a>
+                    <a href="https://youtu.be/GIcqIbMZKbQ?si=GFjUHbQjiHtWP41T" target="_blank">
+                        <img src="youtube.jpg">
+                    </a>
+                </li>
             </ol><br>
-            <li>Symphony No. 3 in C Major (2018)</li>
+            <li>Symphony No. 3 in C Major (2018)
+                <a href="https://on.soundcloud.com/XyXiC" target="_blank">
+                    <img src="soundcloud.png">
+                </a>
+                <a href="https://youtu.be/6lu5wn6LRZg?si=aV8wWyAUN4c3537G" target="_blank">
+                    <img src="youtube.jpg">
+                </a>
+            </li>
             <ol type="I">
-                <li><a href="https://on.soundcloud.com/XyXiC" target="_blank"><i>Allegro</i></a></li>
+                <li><i>Allegro</i></li>
             </ol><br>
-            <li>Symphony No. 4 (2020 & 2023)</li>
+            <li>Symphony No. 4 (2020 & 2023)
+                <a href="https://youtu.be/T1waqmHzNgY?si=0C3YtT235E3oDKEN" target="_blank">
+                    <img src="youtube.jpg">
+                </a>
+            </li>
             <ol type="I">
                 <li><a href="https://on.soundcloud.com/KjJeX" target="_blank"><i>Grave - Allegro</i></a> (2020)</li>
                 <li><a href="https://on.soundcloud.com/gdtHC" target="_blank"><i>Adagio</i></a> (2020)</li>
