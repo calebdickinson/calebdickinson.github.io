@@ -55,28 +55,3 @@ a:active {
     max-width: 90vw;
   }
 }
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-}
-.gallery img {
-    display: inline !important;
-    width: auto;
-    object-fit: cover;
-}
-.gallery a {
-    border-bottom: none;
-}
-
-.gallery img {
-    display: inline !important;
-    width: auto;
-    object-fit: cover;
-    transition: transform 0.2s ease;
-}
-.gallery img:hover {
-    transform: scale(1.08);
-}
